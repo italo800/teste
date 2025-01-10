@@ -1,0 +1,59 @@
+/* Definindo a fonte padrão para o corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2563eb; /* Azul do Tailwind */
+    color: white;
+}
+
+/* Estilo para os títulos das seções */
+h2 {
+    color: #1f2937; /* Cor do texto escuro */
+}
+
+/* Estilo para os botões */
+button {
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para os botões ao passar o mouse */
+button:hover {
+    background-color: #1d4ed8; /* Azul mais escuro */
+}
+
+/* Estilo para os campos de entrada */
+input, select, textarea {
+    border: 1px solid #d1d5db; /* Cor da borda */
+    border-radius: 0.375rem; /* Bordas arredondadas */
+}
+
+/* Estilo para os campos de entrada ao focar */
+input:focus, select:focus, textarea:focus {
+    border-color: #3b82f6; /* Azul do Tailwind */
+    box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.5); /* Sombra azul */
+}
+
+/* Estilo para as seções de tickets recentes */
+section {
+    margin-top: 2rem; /* Margem superior */
+}
+
+/* Estilo para os tickets */
+.ticket {
+    border-bottom: 1px solid #e5e7eb; /* Borda inferior */
+    padding: 1rem; /* Padding */
+}
+
+/* Estilo para o texto de prioridade e status */
+.ticket .priority, .ticket .status {
+    font-size: 0.875rem; /* Tamanho da fonte menor */
+    color: #4b5563; /* Cor do texto cinza */
+}
+
+/* Estilo para o texto de prioridade e status ao lado */
+.ticket .text-right {
+    text-align: right; /* Alinhamento à direita */
+}
